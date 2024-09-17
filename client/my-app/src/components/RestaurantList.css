@@ -1,0 +1,44 @@
+.restaurant-list {
+    background-color: #f8f9fa;
+  }
+  
+  .restaurant-image {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .restaurant-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .rating {
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 3px;
+    color: white;
+  }
+
+  .rating.dark-green { background-color: #006400; }
+.rating.green { background-color: #008000; }
+.rating.yellow { background-color: #FFD700; color: black; }
+.rating.orange { background-color: #FFA500; }
+.rating.red { background-color: #FF0000; }
+
+.rating-text {
+  margin-left: 5px;
+}
+
+.location-segment {
+  background-color: #f0f0f0;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+  .hover-shadow:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+

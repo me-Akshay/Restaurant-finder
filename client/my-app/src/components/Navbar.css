@@ -1,0 +1,45 @@
+/* Increase the size of the border */
+.navbar {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1); /* Increase the border thickness */
+  }
+  
+  /* Sticky (fixed) navbar on scroll */
+  .navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensures it stays on top of other content */
+    transition: background-color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  /* Make navbar translucent on scroll */
+  .navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.7); /* Make it translucent when scrolled */
+    border-bottom: 3px solid rgba(255, 255, 255, 0.3); /* Add a translucent border when scrolled */
+  }
+  
+  /* Navbar brand and nav link changes */
+  .nav-link-custom {
+    color: rgba(255, 255, 255, 0.7) !important;
+    transition: color 0.3s ease;
+    padding: 0.5rem 1rem !important;
+    border-radius: 0.25rem;
+  }
+  
+  .nav-link-custom:hover,
+  .nav-link-custom.active {
+    color: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .navbar-nav .nav-link-custom {
+    margin-left: 0.5rem;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-nav .nav-link-custom {
+      margin-left: 0;
+      margin-top: 0.5rem;
+    }
+  }
+  

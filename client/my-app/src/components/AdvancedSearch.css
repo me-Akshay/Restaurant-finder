@@ -1,0 +1,62 @@
+
+
+
+  .advanced-search-container {
+    padding: 20px;
+  }
+  
+  .advanced-search-title {
+    margin-bottom: 20px;
+  }
+  
+  .restaurant-image {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .restaurant-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .rating {
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+  
+  .rating.excellent { background-color: #4CAF50; color: white; }
+  .rating.very-good { background-color: #8BC34A; color: white; }
+  .rating.good { background-color: #FFC107; color: black; }
+  .rating.average { background-color: #FF9800; color: white; }
+  .rating.poor { background-color: #F44336; color: white; }
+  
+  .rating-text {
+    margin-left: 5px;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .page-info {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .loading-message, .error-message {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .error-message {
+    color: #dc3545;
+  }

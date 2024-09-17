@@ -1,0 +1,53 @@
+
+
+  .image-search {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+  
+  .results-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .restaurant-card {
+    transition: transform 0.2s;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .restaurant-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .restaurant-image {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .restaurant-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .rating {
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin-right: 5px;
+  }
+  
+  .rating.dark-green { background-color: #006400; color: white; }
+  .rating.green { background-color: #4CAF50; color: white; }
+  .rating.yellow { background-color: #FFC107; color: black; }
+  .rating.orange { background-color: #FF9800; color: black; }
+  .rating.red { background-color: #F44336; color: white; }
+  
+  .rating-text {
+    font-style: italic;
+  }
+  
+  .pagination {
+    margin-top: 2rem;
+  }
