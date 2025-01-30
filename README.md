@@ -15,7 +15,6 @@ TastyFind is a full-stack, high-performance restaurant finder application built 
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
 - **API Integration:** Google Generative AI
-- **Authentication:** JWT-based authentication
 
 ## Installation
 
